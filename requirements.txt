@@ -1,0 +1,18 @@
+# Python dependencies (install with: pip install -r requirements.txt)
+pdfplumber>=0.10.0
+pypdf>=3.0.0
+python-docx>=0.8.11
+
+# ──────────────────────────────────────────────────────────────
+# SYSTEM DEPENDENCIES (not installable via pip)
+# ──────────────────────────────────────────────────────────────
+#
+# poppler (strongly recommended for PDF image extraction)
+#   macOS:   brew install poppler
+#   Linux:   sudo apt install poppler-utils
+#   Windows: https://github.com/oschwartz10612/poppler-windows/releases
+#
+# Ollama (required for local LLM backend)
+#   macOS:   brew install ollama
+#   Linux:   curl -fsSL https://ollama.com/install.sh | sh
+#   Then:    ollama serve && ollama pull phi3:mini
