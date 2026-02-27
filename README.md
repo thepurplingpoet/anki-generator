@@ -25,7 +25,7 @@ Turn any PDF, DOCX, or TXT file into Anki flashcards — powered by AI (local or
 ### 1. Clone and install
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/anki-deck-generator.git
+git clone https://github.com/thepurplingpoet/anki-deck-generator.git
 cd anki-deck-generator
 pip install -r requirements.txt
 ```
